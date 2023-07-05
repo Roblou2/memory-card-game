@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/memory-card-game/static/css/main.5a816937.css",
-    "main.js": "/memory-card-game/static/js/main.0bac10b8.js",
+    "main.css": "/memory-card-game/static/css/main.6d0a0b48.css",
+    "main.js": "/memory-card-game/static/js/main.dee351d0.js",
     "static/js/787.079dd69e.chunk.js": "/memory-card-game/static/js/787.079dd69e.chunk.js",
     "static/media/materialdesignicons-webfont.eot": "/memory-card-game/static/media/materialdesignicons-webfont.a09e19a26c69d41759b6.eot",
     "static/media/materialdesignicons-webfont.ttf?v=7.1.96": "/memory-card-game/static/media/materialdesignicons-webfont.74f12de10e15e784fb55.ttf",
     "static/media/materialdesignicons-webfont.woff?v=7.1.96": "/memory-card-game/static/media/materialdesignicons-webfont.a20ebdc2830d7db8d98f.woff",
     "static/media/materialdesignicons-webfont.woff2?v=7.1.96": "/memory-card-game/static/media/materialdesignicons-webfont.3e1e7fadbeeea08d11e5.woff2",
     "index.html": "/memory-card-game/index.html",
-    "main.5a816937.css.map": "/memory-card-game/static/css/main.5a816937.css.map",
-    "main.0bac10b8.js.map": "/memory-card-game/static/js/main.0bac10b8.js.map",
+    "main.6d0a0b48.css.map": "/memory-card-game/static/css/main.6d0a0b48.css.map",
+    "main.dee351d0.js.map": "/memory-card-game/static/js/main.dee351d0.js.map",
     "787.079dd69e.chunk.js.map": "/memory-card-game/static/js/787.079dd69e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a816937.css",
-    "static/js/main.0bac10b8.js"
+    "static/css/main.6d0a0b48.css",
+    "static/js/main.dee351d0.js"
   ]
 }

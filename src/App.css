@@ -1,38 +1,94 @@
+* {
+    font-family:"Montserrat",sans-serif
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+.mdi {
+    margin-right: 1vw;
+}
+
+h3 {
+    font-size: 1.2vw;
+
+}
+
+p {
+    font-size: 2vw;
+}
+p.score {
+    color: rgb(188, 255, 152);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+header {
+ display: flex;
+ flex-flow: row nowrap;
+ justify-content: left;
+ align-items: center;
+
+ margin: 0 0 3vw 0;
+ background-color: #3757bd;
+}
+footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+background-color: black;
+color: white;
+height: 5vh;   
+margin-top: auto;
+}
+header h2 {
+    margin-left: 3vw;
+    color: white;
+}
 .App {
-  text-align: center;
+    background-color:  #484848;
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+}
+a {
+    color: white;
+}
+.images {
+    display: flex;
+    flex-flow: column nowrap;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.memory-buttons {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 20%;
+    gap: 20px;
+
+   justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+    width: 100%;
+    max-width: 400px;
   color: white;
+  border-radius: 5px;
+  box-shadow: 3px 5px 10px #888888;
+  font-weight: 700;
+  font-size: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+button.not-seen {
+    background-color:steelblue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button.seen {
+    background-color:orange
 }
